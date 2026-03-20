@@ -2,7 +2,7 @@
 
 * Audio scripts and presets.
 * Unity minimum version: **6000.3**
-* Current version: **4.3.0**
+* Current version: **5.0.0**
 * License: **MIT**
 
 ## How To Use

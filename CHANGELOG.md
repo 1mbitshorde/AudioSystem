@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-
+## [5.0.0] - 2026-03-20
 ### Changed
 - Rename package to Audio System
 
@@ -85,7 +85,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Add initial files
 - Initial commit
 
-[Unreleased]: https://github.com/HyagoOliveira/AudioSystem/compare/4.3.0...main
+[Unreleased]: https://github.com/HyagoOliveira/AudioSystem/compare/5.0.0...main
+[5.0.0]: https://github.com/HyagoOliveira/AudioSystem/tree/5.0.0/
 [4.3.0]: https://github.com/HyagoOliveira/AudioSystem/tree/4.3.0/
 [4.2.0]: https://github.com/HyagoOliveira/AudioSystem/tree/4.2.0/
 [4.1.0]: https://github.com/HyagoOliveira/AudioSystem/tree/4.1.0/

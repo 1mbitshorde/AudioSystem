@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ActionCode.AudioSystem
+namespace OneM.AudioSystem
 {
     /// <summary>
     /// Extension class for <see cref="AudioSource"/>.

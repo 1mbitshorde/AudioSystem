@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace ActionCode.AudioSystem
+namespace OneM.AudioSystem
 {
     /// <summary>
     /// Component for Audio Groups.

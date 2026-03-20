@@ -2,12 +2,12 @@ using System;
 using UnityEngine;
 using UnityEngine.Audio;
 
-namespace ActionCode.AudioSystem
+namespace OneM.AudioSystem
 {
     /// <summary>
     /// Scriptable Settings for an Audio Group.
     /// </summary>
-    [CreateAssetMenu(fileName = "AudioGroupSettings", menuName = "ActionCode/Audio/Group Settings", order = 110)]
+    [CreateAssetMenu(fileName = "AudioGroupSettings", menuName = "OneM/Audio System/Group Settings")]
     public sealed class AudioGroupSettings : ScriptableObject
     {
         [SerializeField, Tooltip("The AudioMixer asset used on your game.")]

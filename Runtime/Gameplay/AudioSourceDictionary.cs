@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ActionCode.AudioSystem
+namespace OneM.AudioSystem
 {
     /// <summary>
     /// Plays audio clips shots using an <see cref="AudioSource"/> component and an <see cref="AudioDictionary"/>.

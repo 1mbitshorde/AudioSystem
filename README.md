@@ -2,8 +2,7 @@
 
 * Audio scripts and presets.
 * Unity minimum version: **6000.3**
-* Current version: **5.0.0**
-* License: **MIT**
+* Current version: **6.0.0**
 
 ## How To Use
 
@@ -37,19 +36,19 @@ This component is only available if you have installed the **Text Mesh Pro** pac
 
 ### Using the Package Registry Server
 
-Follow the instructions inside [here](https://cutt.ly/ukvj1c8) and the package **ActionCode-Audio** 
+Follow the instructions inside [here](https://cutt.ly/ukvj1c8) and the package **1M Bits Horde-Audio** 
 will be available for you to install using the **Package Manager** windows.
 
 ### Using the Git URL
 
 You will need a **Git client** installed on your computer with the Path variable already set. 
 
-- Use the **Package Manager** "Add package from git URL..." feature and paste this URL: `https://github.com/HyagoOliveira/AudioSystem.git`
+- Use the **Package Manager** "Add package from git URL..." feature and paste this URL: `https://github.com/1mbitshorde/AudioSystem.git`
 
 - You can also manually modify you `Packages/manifest.json` file and add this line inside `dependencies` attribute: 
 
 ```json
-"com.actioncode.audio-system":"https://github.com/HyagoOliveira/AudioSystem.git"
+"com.1mbitshorde.audio-system":"https://github.com/1mbitshorde/AudioSystem.git"
 ```
 
 ---

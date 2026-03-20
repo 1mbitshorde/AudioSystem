@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [6.0.0] - 2026-03-20
+### Changed
+- Move package into 1M Bits Horde
+
 ## [5.0.0] - 2026-03-20
 ### Changed
 - Rename package to Audio System
@@ -85,15 +89,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Add initial files
 - Initial commit
 
-[Unreleased]: https://github.com/HyagoOliveira/AudioSystem/compare/5.0.0...main
-[5.0.0]: https://github.com/HyagoOliveira/AudioSystem/tree/5.0.0/
-[4.3.0]: https://github.com/HyagoOliveira/AudioSystem/tree/4.3.0/
-[4.2.0]: https://github.com/HyagoOliveira/AudioSystem/tree/4.2.0/
-[4.1.0]: https://github.com/HyagoOliveira/AudioSystem/tree/4.1.0/
-[4.0.0]: https://github.com/HyagoOliveira/AudioSystem/tree/4.0.0/
-[3.1.0]: https://github.com/HyagoOliveira/AudioSystem/tree/3.1.0/
-[3.0.1]: https://github.com/HyagoOliveira/AudioSystem/tree/3.0.1/
-[3.0.0]: https://github.com/HyagoOliveira/AudioSystem/tree/3.0.0/
-[2.0.0]: https://github.com/HyagoOliveira/AudioSystem/tree/2.0.0/
-[1.1.0]: https://github.com/HyagoOliveira/AudioSystem/tree/1.1.0/
-[1.0.0]: https://github.com/HyagoOliveira/AudioSystem/tree/1.0.0/
+[Unreleased]: https://github.com/1mbitshorde/AudioSystem/compare/6.0.0...main
+[6.0.0]: https://github.com/1mbitshorde/AudioSystem/tree/6.0.0/
+[5.0.0]: https://github.com/1mbitshorde/AudioSystem/tree/5.0.0/
+[4.3.0]: https://github.com/1mbitshorde/AudioSystem/tree/4.3.0/
+[4.2.0]: https://github.com/1mbitshorde/AudioSystem/tree/4.2.0/
+[4.1.0]: https://github.com/1mbitshorde/AudioSystem/tree/4.1.0/
+[4.0.0]: https://github.com/1mbitshorde/AudioSystem/tree/4.0.0/
+[3.1.0]: https://github.com/1mbitshorde/AudioSystem/tree/3.1.0/
+[3.0.1]: https://github.com/1mbitshorde/AudioSystem/tree/3.0.1/
+[3.0.0]: https://github.com/1mbitshorde/AudioSystem/tree/3.0.0/
+[2.0.0]: https://github.com/1mbitshorde/AudioSystem/tree/2.0.0/
+[1.1.0]: https://github.com/1mbitshorde/AudioSystem/tree/1.1.0/
+[1.0.0]: https://github.com/1mbitshorde/AudioSystem/tree/1.0.0/

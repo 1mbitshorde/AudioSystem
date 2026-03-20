@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ActionCode.AudioSystem
+namespace OneM.AudioSystem
 {
     /// <summary>
     /// Abstract UI component for <see cref="AudioGroupSettings"/>.

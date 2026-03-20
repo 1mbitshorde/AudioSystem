@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace ActionCode.AudioSystem
+namespace OneM.AudioSystem
 {
     /// <summary>
     /// Scriptable Settings for Audio.
     /// </summary>
-    [CreateAssetMenu(fileName = "AudioSettings", menuName = "ActionCode/Audio/Settings", order = 110)]
+    [CreateAssetMenu(fileName = "AudioSettings", menuName = "OneM/Audio System/Settings")]
     public sealed class AudioSettings : ScriptableObject
     {
         [Header("Groups")]

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace ActionCode.AudioSystem
+namespace OneM.AudioSystem
 {
 	/// <summary>
 	/// Audio Dictionary data.

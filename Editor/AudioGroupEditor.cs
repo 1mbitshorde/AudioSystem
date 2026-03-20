@@ -2,7 +2,7 @@ using System;
 using UnityEditor;
 using UnityEngine.Audio;
 
-namespace ActionCode.AudioSystem.Editor
+namespace OneM.AudioSystem.Editor
 {
     /// <summary>
     /// Editor for <see cref="AudioGroup"/>.

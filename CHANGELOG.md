@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [6.1.0] - 2026-05-18
 ### Added
 - Play functions
 
@@ -92,7 +93,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Add initial files
 - Initial commit
 
-[Unreleased]: https://github.com/1mbitshorde/AudioSystem/compare/6.0.0...main
+[Unreleased]: https://github.com/1mbitshorde/AudioSystem/compare/6.1.0...main
+[6.1.0]: https://github.com/1mbitshorde/AudioSystem/tree/6.1.0/
 [6.0.0]: https://github.com/1mbitshorde/AudioSystem/tree/6.0.0/
 [5.0.0]: https://github.com/1mbitshorde/AudioSystem/tree/5.0.0/
 [4.3.0]: https://github.com/1mbitshorde/AudioSystem/tree/4.3.0/

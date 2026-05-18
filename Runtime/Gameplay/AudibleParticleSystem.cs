@@ -9,14 +9,14 @@ namespace OneM.AudioSystem
     [DisallowMultipleComponent]
     [RequireComponent(typeof(AudioSource))]
     [RequireComponent(typeof(ParticleSystem))]
-    public class AudibleParticleSystem : MonoBehaviour
+    public sealed class AudibleParticleSystem : MonoBehaviour
     {
         [SerializeField, Tooltip("The AudioSource component used to play.")]
-        protected AudioSource audioSource;
+        private AudioSource audioSource;
         [SerializeField, Tooltip("The ParticleSystem component used to play.")]
-        protected ParticleSystem partSystem;
+        private ParticleSystem partSystem;
         [SerializeField, Tooltip("Other behaviours to enable when play.")]
-        protected Behaviour[] otherBehaviours;
+        private Behaviour[] otherBehaviours;
 
         private void Reset()
         {
@@ -36,6 +36,12 @@ namespace OneM.AudioSystem
             partSystem.Play();
             EnableBehaviours(true);
         }
+
+        /// <summary>
+        /// Plays the specified audio clip.
+        /// </summary>
+        /// <param name="clip">The audio clip to play.</param>
+        public void Play(AudioClip clip) => audioSource.PlayOneShot(clip);
 
         /// <summary>
         /// Stops both Audio Source and Particle System.

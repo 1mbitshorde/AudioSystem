@@ -31,6 +31,12 @@ namespace OneM.AudioSystem
 
         private void OnDisable() => CancelInvoke();
 
+        /// <summary>
+        /// Plays the specified audio clip.
+        /// </summary>
+        /// <param name="clip">The audio clip to play.</param>
+        public void Play(AudioClip clip) => audio.PlayOneShot(clip);
+
         private void PlayLoopSound() => audio.Play();
     }
 }

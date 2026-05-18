@@ -17,21 +17,26 @@ namespace OneM.AudioSystem
         private void Awake() => Dictionary.Initialize();
 
         /// <summary>
+        /// Plays the given AudioClip.
+        /// </summary>
+        /// <param name="clip">The AudioClip to play.</param>
+        public void Play(AudioClip clip) => source.PlayOneShot(clip);
+
+        /// <summary>
         /// Plays an audio clip using the given index.
         /// </summary>
         /// <param name="index"><inheritdoc cref="AudioDictionary.GetClip(int)"/></param>
-        public void Play(int index) => source.PlayOneShot(Dictionary.GetClip(index));
-
+        public void Play(int index) => Play(Dictionary.GetClip(index));
         /// <summary>
         /// Plays an audio clip using the given name.
         /// </summary>
         /// <param name="name"><inheritdoc cref="AudioDictionary.GetClip(string)"/></param>
-        public void Play(string name) => source.PlayOneShot(Dictionary.GetClip(name));
+        public void Play(string name) => Play(Dictionary.GetClip(name));
 
         /// <summary>
         /// Plays a random audio clip.
         /// </summary>
-        public void PlayRandom() => source.PlayOneShot(Dictionary.GetRandomClip());
+        public void PlayRandom() => Play(Dictionary.GetRandomClip());
 
         /// <summary>
         /// <inheritdoc cref="Play(string)"/>
